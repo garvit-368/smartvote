@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['email'] = $row['email'];
         $_SESSION['user_id'] = $row['id'];
         $_SESSION['success'] = 'Logged in successfully';
+        $_SESSION['role'] = $row['role'];
         if ($row['role'] == 1) {
             header('Location: ../pages/dashboard/dashboard.php');
             die;

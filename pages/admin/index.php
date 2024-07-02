@@ -15,11 +15,11 @@
     <h1>Admin Dashboard</h1>
     <a href="../../controller/logout-controller.php">Logout</a>
     <ul style="list-style-type: disc;">
-        <li><a href="">Create poll</a></li>
-        <li><a href="">View Active Polls</a></li>
-        <li><a href="">View All Polls</a></li>
+        <li><a href="poll/create-poll.php">Create Poll</a></li>
+        <li><a href="../dashboard/dashboard.php">View Active Polls</a></li>
+        <li><a href="../dashboard/poll/all-polls.php">View All Polls</a></li>
         <li><a href="">View Reports</a></li>
-        <li><a href="">Manage Users</a></li>
+        <li><a href="users/manage-users.php">Manage Users</a></li>
     </ul>
 </body>
 
